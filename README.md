@@ -7,7 +7,7 @@
 - A simple tutorial about [C\C++ to solve common problems](./Simple_CCPP_Example/)
 - A simple tutorial about [using CMake in common task](./Simple_CAndCMake_Example/)
 
-## Process
+## Progress
 
 ### Basic C\C++ program
 
@@ -29,6 +29,6 @@ Detail:
 
 - [x] Use CMake with a src file cpp
 - [x] Use CMake with a project C\C++ (multi cpp file)
-- [] Build a shared library build (light weight)
-- [] Build a static library build (heavy weight)
-- [] Import shared or static lib to use
+- [ ] Build a shared library build (light weight)
+- [ ] Build a static library build (heavy weight)
+- [ ] Import shared or static lib to use

@@ -45,6 +45,12 @@ add_executable(testStudent ${SOURCES})
 # để build một chương trình executable là testStudent
 ```
 
+## Build cmake and run make
+
+```bash
+cd . && cmake . && make
+```
+
 ## After run `cmake .` & `make`
 
 ![image](./figs/project_structure.png)
