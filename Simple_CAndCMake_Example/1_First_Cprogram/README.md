@@ -31,8 +31,8 @@ gdb helloworld
 ## Build the program with makefile
 
 ```bash
-cd . && cmake . && make 
-# cmake .: generate makefile
+cd build && cmake .. && make 
+# cmake ..: generate makefile of parent folder
 # make: compile the program
 # if you want to clean the compiled files, you can use `make clean` - that will remove `hello` file just created
 # '.' is the current directory that contains CMakeLists.txt file with cmake configuration 
@@ -41,3 +41,7 @@ cd . && cmake . && make
 # after that you can run `hello` file just created
 # with `hello` is the project name in CMakeLists.txt configuration
 ```
+
+## Result
+
+![image](./figs/project_structure.png)

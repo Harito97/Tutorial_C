@@ -48,10 +48,11 @@ add_executable(testStudent ${SOURCES})
 ## Build cmake and run make
 
 ```bash
-cd . && cmake . && make
+# in build folder
+cd build && cmake .. && make
 ```
 
-## After run `cmake .` & `make`
+## After run `cmake ..` & `make`
 
 ![image](./figs/project_structure.png)
 
@@ -72,3 +73,5 @@ Các tệp và thư mục có chức năng như sau:
 - **`Makefile`**: Nếu bạn muốn sử dụng `make` để biên dịch lại chương trình mà không cần phải chạy `cmake` lại, thì không nên xóa. Nếu bạn xóa nó, bạn sẽ phải chạy lại `cmake` để tạo lại `Makefile`.
 
 Tóm lại, các tệp và thư mục trong khung đỏ đều có thể xóa được mà không ảnh hưởng đến mã nguồn của bạn. Tuy nhiên, nếu bạn định build lại chương trình sau khi xóa chúng, bạn sẽ cần phải chạy lại CMake để tái tạo những tệp này.
+
+$\to$ After all (if done) $\to$ can remove all what make create except the `bin file`. Eg in this case: `testStudent`
