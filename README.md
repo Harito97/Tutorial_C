@@ -23,12 +23,12 @@
 
 ### Examples with CMake
 
-[####------] 40%
+[##########] 100%
 
 Detail:
 
 - [x] Use CMake with a src file cpp
 - [x] Use CMake with a project C\C++ (multi cpp file)
-- [ ] Build a shared library build (light weight)
-- [ ] Build a static library build (heavy weight)
-- [ ] Import shared or static lib to use
+- [x] Build a shared library build (light weight)
+- [x] Build a static library build (heavy weight)
+- [x] Import shared or static lib to use
