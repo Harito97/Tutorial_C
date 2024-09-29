@@ -8,11 +8,11 @@ link_directories(../3_Create_A_Shared_Library/build)
 
 # For the static library:
 #set (PROJECT_LINK_LIBS libtestStudent.a)
-#link_directories(../../4*Static*/build)
+#link_directories(../../4*Static*/build)    # not work with regular expression
 
-#include_directories(../../3*Shared*/include)
+#include_directories(../../3*Shared*/include)   # not work with regular expression
 include_directories(../3_Create_A_Shared_Library/include)
-#include_directories(../../4*Static*/include)
+#include_directories(../../4*Static*/include)   # not work with regular expression
 
 add_executable(libtest libtest.cpp)
 target_link_libraries(libtest ${PROJECT_LINK_LIBS})
