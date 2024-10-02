@@ -2,6 +2,16 @@
 
 [https://roadmap.sh/cpp]
 
+Main point is:
+
+* Operator
+* Function
+* Data Type
+* Pointer & Reference
+* Exception Handling
+* Debug
+* Lib & Framework
+
 [https://www.geeksforgeeks.org/c-programming-language/]
 
 [https://github.com/The-Young-Programmer/C-CPP-Programming]
