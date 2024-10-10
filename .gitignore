@@ -10,3 +10,26 @@ CMakeOutput.log
 CMakeError.log
 cmake_install.cmake
 Makefile
+
+# Data files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+*.iso
+*.bin
+*.img
+
+# DCM files
+*.dcm
+
+# Executables
+*.exe
+*.out
+*.app
+*.dll
